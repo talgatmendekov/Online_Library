@@ -1,0 +1,35 @@
+.filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 8px;
+    margin-bottom: 1em;
+  }
+  .filter_label {
+    margin-right: 1em;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #4a4a4a;
+  }
+  .filter_select {
+    padding: 5px;
+    border: 1px solid #9f9fbd;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: "Nunito";
+    color: #9c9c9c;
+  }
+  .filter_select::value {
+    color: #9c9eb2;
+  }
+  @media (min-width: 720px) {
+    .filter {
+      flex-direction: row;
+    }
+  }
+  
